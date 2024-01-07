@@ -1,21 +1,29 @@
 /*google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /*asterisk wildcar selector*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(225,240,247);
+    background-color: rgb(225, 240, 247);
     font-family: 'pt sans', sans-serif;
 }
+
+header {
+    padding: 0 1rem;
+}
+
 main {
     flex: 1 0 auto;
 }
+
 footer {
     background-color: blue;
 }
