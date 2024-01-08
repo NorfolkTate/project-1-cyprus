@@ -19,6 +19,7 @@ body {
 header {
     padding: 0 1rem;
     width:100vw;
+    flex-direction: column;
 }
 
 main {
@@ -27,4 +28,8 @@ main {
 
 footer {
     background-color: blue;
+}
+#homepage {
+    display: flex;
+    flex-direction: column;
 }
