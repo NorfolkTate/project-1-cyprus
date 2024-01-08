@@ -27,7 +27,7 @@ main {
 }
 
 footer {
-    background-color: blue;
+    background-color: rgb(225, 240, 247);
 }
 #homepage {
     display: flex;
