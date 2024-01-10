@@ -40,3 +40,6 @@ footer {
     display: flex;
     flex-direction: column;
 }
+#pages {
+    text-align: right;
+}
