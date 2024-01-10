@@ -16,6 +16,9 @@ body {
     font-family: 'pt sans', sans-serif;
     color: rgb(16, 16, 16);
 }
+div {
+    padding: 10px;
+}
  a {
      text-decoration: none;
      color: inherit;
@@ -44,11 +47,15 @@ main {
 footer {
     background-color: rgb(225, 240, 247);
 }
+#open {
+    display:inline;
+    width:100%;
+}
 #homepage {
     display: flex;
     flex-direction: column;
 }
 #pages {
-    text-align: right;
+    text-align: left;
 }
  
