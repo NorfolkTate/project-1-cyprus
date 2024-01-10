@@ -31,14 +31,26 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    align-items: baseline;
 }
 nav {
     text-align: center;
     display: inline-block;
     list-style: none;
+    display:none;
+    top: 100%;
 }
 nav ul {
     list-style: none;
+}
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display:none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
 }
 main {
     flex: 1 0 auto;
