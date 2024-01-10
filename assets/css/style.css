@@ -15,6 +15,10 @@ body {
     background-color: rgb(225, 240, 247);
     font-family: 'pt sans', sans-serif;
 }
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
 
 header {
     padding: 0 1rem;
