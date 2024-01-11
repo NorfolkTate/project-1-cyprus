@@ -60,9 +60,12 @@ main {
 footer {
     background-color: rgb(225, 240, 247);
 }
-#open {
-    display:inline;
-    width:100%;
+.open {
+    display:flex;
+    }
+.item {
+    flex: 1;
+    margin: 10px;
 }
 #homepage {
     display: flex;
