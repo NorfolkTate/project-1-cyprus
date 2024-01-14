@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(225, 240, 247);
+    background-color: white;
     font-family: "pt sans", sans-serif;
     color: rgb(16, 16, 16);
 }
@@ -31,7 +31,6 @@ header {
     justify-content: space-between;
     background-color: rgb(2235,152,52);
     color: white;
-
 }
 #logo {
    height: 7%;
