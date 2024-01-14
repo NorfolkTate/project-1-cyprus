@@ -70,8 +70,12 @@ footer {
     background-color: rgb(225, 240, 247);
 }
 
-.open {
+.text1 {
     display: flex;
+    padding: 15px;
+    background-color:rgb(2235, 152, 52);
+    color: white;
+    margin-top: 30px;
 }
 
 .item {
