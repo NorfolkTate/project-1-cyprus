@@ -27,13 +27,8 @@ a {
 }
 
 header {
-    padding: 0 1rem;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    align-items: baseline;
 }
 nav ul {
     list-style: none;
