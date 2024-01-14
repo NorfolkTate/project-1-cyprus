@@ -35,16 +35,13 @@ header {
     text-align: center;
     align-items: baseline;
 }
-
-nav {
-    text-align: center;
-    display: inline-block;
-    list-style: none;
-    top: 100%;
-}
-
 nav ul {
     list-style: none;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 main {
