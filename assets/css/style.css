@@ -89,6 +89,11 @@ footer {
 }
 
 #pages {
+    display: flex;
+    padding: 15px;
+    background-color: rgb(2235, 152, 52);
+    color: white;
+    margin-top: 30px;
     text-align: left;
 }
 #map {
