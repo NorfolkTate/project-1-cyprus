@@ -29,6 +29,8 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(2235,152,52);
+    color: white;
 }
 nav ul {
     list-style: none;
