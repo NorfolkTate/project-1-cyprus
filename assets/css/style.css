@@ -31,6 +31,11 @@ header {
     justify-content: space-between;
     background-color: rgb(2235,152,52);
     color: white;
+
+}
+#logo {
+   height: 7%;
+   width: 7%;
 }
 nav ul {
     list-style: none;
