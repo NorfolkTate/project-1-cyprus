@@ -118,3 +118,9 @@ h3 {
     height: 240x;
     width: 600px;
 }
+#island-title {
+    align-self: center;
+    padding: 20px;
+    color: rgb(2235, 152, 52);
+    font-size: 150%;
+}
