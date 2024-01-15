@@ -109,3 +109,12 @@ h3 {
     width: 7%;
     margin: 10px;
 }
+.images-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.island-image {
+    height: 240x;
+    width: 600px;
+}
