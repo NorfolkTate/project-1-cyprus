@@ -104,3 +104,9 @@ h3 {
     align-items: center;
 
 }
+.social-image {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 10%;
+}
