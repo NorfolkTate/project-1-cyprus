@@ -129,3 +129,14 @@ h3 {
     color: rgb(2235, 152, 52);
     font-size: 150%;
 }
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery-image {
+    height: 160px;
+    width: 280px;
+    object-fit: cover;
+}
