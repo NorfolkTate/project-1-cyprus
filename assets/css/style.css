@@ -123,7 +123,7 @@ h3 {
     height: 240px;
     width: 600px;
 }
-#island-title {
+.island-title {
     align-self: center;
     padding: 20px;
     color: rgb(2235, 152, 52);
@@ -134,6 +134,8 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .gallery-image {
     height: 160px;
