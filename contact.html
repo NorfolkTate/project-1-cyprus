@@ -36,15 +36,21 @@
         <div class="contact">
         <form>
             <input type="email" id="email" name="email" placeholder="enter your email..." required>
-        </form>
+        </form>    
         <p>What would you like to hear about?</p>
         <form>
+            <div class="checkbox-group">
             <input type="checkbox" id="flightinformation" name="flightinformation" value="">
             <label for="flightinformation">Flight information</label>
+            </div>
+            <div class="checkbox-group">
             <input type="checkbox" id="hotelsales" name="hotelsales" value="">
             <label for="hotelsales" name="hotelsales">Hotel stay sales</label>
+            </div>
+            <div class="checkbox-group">
             <input type="checkbox" id="upcomingfestivals" name="upcomingfestivals" value="">
             <label for="upcomingfestivals" name="upcomingfestivals">Upcoming festivals</label>
+            </div>
             <br>
             <input type="submit" value="Submit">
         </form>
@@ -55,9 +61,13 @@
             <div class="contact">
                 <form>
                     <input type="text" id="fname" name="first-name" placeholder="First Name" required>
+                    <br>
                     <input type="text" id="lname" name="last-name"  placeholder="Last Name" required>
+                    <br>
                     <input type="number" id="phone" name="phone" placeholder="Phone Number" required>
+                    <br>
                     <input type="email" id="email" name="email" placeholder="Email" required>
+                    <br>
                     <input type="text-box" id="question" name="question" placeholder="Type your question here..." required>
                 </form>
             </div>

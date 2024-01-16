@@ -149,3 +149,13 @@ h3 {
     color: white;
     padding: 15px;
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-group {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 200px;
+}
