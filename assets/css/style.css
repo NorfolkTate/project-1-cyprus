@@ -7,7 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*generic body styles*/
 body {
     display: flex;
     flex-direction: column;
@@ -16,16 +16,17 @@ body {
     font-family: "pt sans", sans-serif;
     color: rgb(16, 16, 16);
 }
-
+/*
 div {
     justify-content: space-between;
 }
-
+*/
+/*anchor styling */
 a {
     text-decoration: none;
     color: inherit;
 }
-
+/* generic header styling*/
 header {
     display: flex;
     justify-content: space-between;
@@ -34,13 +35,16 @@ header {
     padding-top: 10px;
     padding-left: 5rem;
 }
+/*styling for cyprus flag logo in header*/
 #logo {
    height: 7%;
    width: 7%;
 }
+/*nav bar styling*/
 nav ul {
     list-style: none;
 }
+/*footer*/
 .social-footer {
     display: flex;
     flex-direction: row;
@@ -53,17 +57,19 @@ nav ul {
     width: 5%;
     margin: 10px;
 }
-
+/*maing style*/
 main {
     flex: 1 0 auto;
     padding: 2rem;
 }
+/*hero image*/
 #hero {
     height:600px;
     width: 100%;
     background:url(../images/lovers-bridge-cyprus.jpg) no-repeat center center/cover;
     position: relative;
 }
+/*text for hero image*/
 #cover-text {
     color: antiquewhite;
     font-size: 130%;
@@ -74,6 +80,7 @@ main {
     padding-top: 40px;
     padding-left: 10px;
 }
+/*styling for text in orange box*/
 .text1 {
     display: flex;
     padding: 15px;
@@ -81,17 +88,18 @@ main {
     color: white;
     margin-top: 30px;
 }
-
+/*
 .item {
     flex: 1;
     margin: 10px;
 }
-
+*/
+/*styling for content on home page*/
 #homepage {
     display: flex;
     flex-direction: row;
 }
-
+/*
 #pages {
     display: flex;
     padding: 15px;
@@ -99,15 +107,18 @@ main {
     color: white;
     margin-top: 30px;
     text-align: left;
-}
+}*/
+/*
 h3 {
     align-items: center;
-
 }
+*/
+/*the-island page styling for images*/
 .island-section {
     display: flex;
     justify-content: space-between;
 }
+
 .images-list {
     display: flex;
     flex-direction: column;
@@ -118,12 +129,14 @@ h3 {
     height: 240px;
     width: 600px;
 }
+/*generic style for orange heading*/
 .island-title {
     text-align: center;
     padding: 20px;
     color: rgb(2235, 152, 52);
     font-size: 150%;
 }
+/*gallery styles*/
 .gallery {
     display: flex;
     flex-direction: row;
@@ -137,6 +150,7 @@ h3 {
     width: 280px;
     object-fit: cover;
 }
+/*form styling on contact page*/
 .contact {
     display: flex;
     flex-direction: column;
