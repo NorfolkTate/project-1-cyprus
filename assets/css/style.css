@@ -75,7 +75,7 @@ main {
 }
 /*hero image*/
 #hero {
-    height:600px;
+    height:37rem;
     width: 100%;
     background:url(../images/lovers-bridge-cyprus.jpg) no-repeat center center/cover;
     position: relative;
@@ -185,4 +185,48 @@ form {
     flex-direction: row;
     align-items: flex-start;
     margin-right: 200px;
+}
+/*media query for max width 1025px*/
+@media screen and (max-width:1025px) {
+body {
+    display:flex;
+}
+#homepage {
+    flex-direction: column;
+    align-items: center;
+}
+}
+/*media query for max width 769px*/
+@media screen and (max-width:769px){
+    #home-image{
+        padding-top: 2rem;
+    }
+    .social-footer {
+        padding-left: 15px;
+        padding-right: 15px;
+}
+}
+/*media query for max width 481px*/
+@media screen and (max-width:481px){
+    header {    
+        padding-left: 4px;
+        align-items:baseline;
+    }
+    .social-footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+}
+/*media query for max width 320px*/
+@media screen and (max-width:320px){
+    #home-image {
+        width:18em;
+    }
+    .nav-bar {
+        flex-direction: column;
+        padding-right: 5px;
+    }
+    #logo {
+        width: 2em;
+    }
 }
