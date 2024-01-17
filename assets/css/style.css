@@ -169,12 +169,18 @@ h3 {
     object-fit: cover;
 }
 /*form styling on contact page*/
+.form-intro {
+    padding: 2em;
+    margin: 0 auto;
+}
 .contact {
     display: flex;
     flex-direction: column;
     background-color: rgb(2235, 152, 52);
     color: white;
     padding: 15px;
+    width: 75%;
+    margin: 0 auto;
 }
 form {
     display: flex;
@@ -185,6 +191,17 @@ form {
     flex-direction: row;
     align-items: flex-start;
     margin-right: 200px;
+}
+.input-box {
+    width:10rem;
+}
+#submit-button {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5em;
+    width: 7em;
 }
 /*media query for max width 1025px*/
 @media screen and (max-width:1025px) {
