@@ -34,6 +34,7 @@ header {
     color: white;
     padding-top: 10px;
     padding-left: 5rem;
+    padding-bottom: 10px;
 }
 /*styling for cyprus flag logo in header*/
 #logo {
@@ -41,6 +42,16 @@ header {
    width: 7%;
 }
 /*nav bar styling*/
+.nav-bar {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+.nav-item {
+    padding-right: 10px;
+}
 nav ul {
     list-style: none;
 }
@@ -96,9 +107,13 @@ main {
 */
 /*styling for content on home page*/
 #homepage {
+    padding-top: 2em;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+}
+#home-image {
+    height: 17em;
+    width: 27em;
 }
 
 /*
