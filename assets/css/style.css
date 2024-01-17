@@ -98,7 +98,9 @@ main {
 #homepage {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
+
 /*
 #pages {
     display: flex;
