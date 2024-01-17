@@ -57,7 +57,7 @@ nav ul {
     width: 5%;
     margin: 10px;
 }
-/*maing style*/
+/*main style*/
 main {
     flex: 1 0 auto;
     padding: 2rem;
@@ -118,8 +118,9 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
-
-.images-list {
+.island-item {
+}
+#images-list {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
