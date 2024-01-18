@@ -37,24 +37,25 @@
         <p class="contact-title"> Sign up to our mailing list to keep up to date with the latest offers</p>
         <br>
         <div class="contact">
-        <form>
+        <form action="" method="post">
             <input type="email" class="input-box" id="email" name="email" placeholder="enter your email..." required>
+            <label for="email">Email</label>
         </form>
         <br>    
         <p id="form-text">What would you like to hear about?</p>
         <br>
-        <form>
+        <form action="" method="post">
             <div class="checkbox-group">
-            <input type="checkbox" id="flightinformation" name="flightinformation" value="">
+            <input type="checkbox" id="flightinformation" name="flightinformation" value="flight-information">
             <label for="flightinformation">Flight information</label>
             </div>
             <div class="checkbox-group">
-            <input type="checkbox" id="hotelsales" name="hotelsales" value="">
-            <label for="hotelsales" name="hotelsales">Hotel stay sales</label>
+            <input type="checkbox" id="hotelsales" name="hotelsales" value="hotel-sales">
+            <label for="hotelsales">Hotel stay sales</label>
             </div>
             <div class="checkbox-group">
-            <input type="checkbox" id="upcomingfestivals" name="upcomingfestivals" value="">
-            <label for="upcomingfestivals" name="upcomingfestivals">Upcoming festivals</label>
+            <input type="checkbox" id="upcomingfestivals" name="upcomingfestivals" value="upcoming-festivals">
+            <label for="upcomingfestivals">Upcoming festivals</label>
             </div>
             <br>
            <!--fake submit button--> 
@@ -66,16 +67,21 @@
         <section>
                 <p class="contact-title"> Alternatively, if you have a question for our team please use the form below</p>
             <div class="contact">
-                <form>
-                    <input type="text" class="input-box" name="first-name" placeholder="First Name" required>
+                <form action="" method="post">
+                    <input type="text" id="fname" class="input-box" name="first-name" placeholder="First Name" value="first-name" required>
+                    <label for="fname">First Name</label>
                     <br>
-                    <input type="text" class="input-box" name="last-name"  placeholder="Last Name" required>
+                    <input type="text" id="lname" class="input-box" name="last-name"  placeholder="Last Name" value="last-name" required>
+                    <label for="lname">Last Name</label>
                     <br>
-                    <input type="number" class="input-box" name="phone" placeholder="Phone Number" required>
+                    <input type="number" id="phone" class="input-box" name="phone" placeholder="Phone Number" value="phone-number" required>
+                    <label for="phone">Phone Number</label>
                     <br>
-                    <input type="email" class="input-box" name="email" placeholder="Email" required>
+                    <input type="email" id="email" class="input-box" name="email" placeholder="Email" value="email" required>
+                    <label for="email">Email Address</label>
                     <br>
-                    <input type="text-box" class="question-box" name="question" placeholder="Type your question here..." required>
+                    <input type="text-box" id="question" class="question-box" name="question" placeholder="Type your question here..." value="question" required>
+                    <label for="question">Ask your question here</label>
                     <br>
                     <a href="thankyou.html" class="submit-button">Submit</a>
                 </form>
