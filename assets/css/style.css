@@ -256,6 +256,29 @@ body {
 .gallery-image {
     width: 48%;
 }
+.contact {
+    width:70%
+}
+.input-box {
+    width: 100%;
+    font-size: 160%;
+}
+.checkbox-group {
+    font-size: 180%;
+}
+.question-box {
+    width: 100%;
+    height: 30em;
+    font-size: 160%;
+}
+#form-text {
+    font-size: 160%;
+}
+.submit-button {
+    font-size: 160%;
+    width: 60%;
+    align-self: center;
+}
 }
 /*media query for max width 769px*/
 @media screen and (max-width:769px){
@@ -266,36 +289,81 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.contact {
+    width: 95%;
+}
+.input-box {
+    width: 100%;
+    font-size: 200%;
+}
+.question-box {
+    width: 100%;
+    font-size: 200%;
+    height: 20em;
+}
+.checkbox-group {
+    font-size: 200%;
+}
 }
 /*media query for max width 481px*/
 @media screen and (max-width:481px){
-    header {    
-        padding-left: 4px;
-        align-items:baseline;
-    }
-    .social-footer {
-        padding-left: 10px;
-        padding-right: 10px;
-        }
-    .gallery {
-        flex-direction: column;
-        padding: 0;
-        justify-items: center;
-    }
-    .gallery-image {
-        width: 90%;
-    }
+header {    
+    padding-left: 4px;
+    align-items:baseline;
+}
+.social-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gallery {
+    flex-direction: column;
+    padding: 0;
+    justify-items: center;
+}
+.gallery-image {
+    width: 90%;
+}
+.input-box {
+    font-size: 120%;
+}
+.question-box {
+    font-size: 120%;
+}
+.checkbox-group {
+    font-size: 150%;
+}
 }
 /*media query for max width 320px*/
 @media screen and (max-width:320px){
-    #home-image {
-        width:18em;
-    }
-    .nav-bar {
-        flex-direction: column;
-        padding-right: 5px;
-    }
-    #logo {
-        width: 2em;
-    } 
+#home-image {
+    width:18em;
+}
+.nav-bar {
+    flex-direction: column;
+    padding-right: 5px;
+}
+#logo {
+    width: 2em;
+} 
+.input-box {
+    font-size: 90%;
+}
+    
+.question-box {
+    font-size: 90%;
+}
+    
+.checkbox-group {
+    font-size: 120%;
+}
+.submit-button {
+    font-size: 100%;
+}
+.contact-title {
+    font-size: 120%;
+    font-weight: 200;
+}
+#form-text {
+    font-size: 120%;
+}
 }
