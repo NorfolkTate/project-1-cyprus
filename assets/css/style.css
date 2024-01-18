@@ -168,9 +168,9 @@ h3 {
     width: 280px;
     object-fit: cover;
 }
-/*hero image on contact us page*/
+/*hero image on thankyou page*/
 #hero-contact {
-    height: 32rem;
+    height: 28rem;
     width: 100%;
     background: url(../images/coral-bay.jpeg) no-repeat center center/cover;
     position: relative;
