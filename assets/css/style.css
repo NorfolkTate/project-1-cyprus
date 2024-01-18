@@ -185,6 +185,12 @@ h3 {
     padding-top: 40px;
     padding-left: 10px;
 }
+#contact-body {
+    background-image: url(../images/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /*form styling on contact page*/
 /*
 .form-intro {
