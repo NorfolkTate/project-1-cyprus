@@ -101,7 +101,6 @@ main {
     padding: 3em;
     display: flex;
     flex-direction: row;
-    padding-top: 4em;
 }
 #home-item {
     padding-right: 5em;
@@ -130,7 +129,7 @@ main {
 /*generic style for orange heading*/
 .island-title {
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     color: rgb(2235, 152, 52);
     font-size: 150%;
 }
@@ -183,7 +182,7 @@ main {
     background-color: rgb(2235, 152, 52);
     color: white;
     padding: 15px;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -200,11 +199,11 @@ form {
     padding-bottom: 1em;
 }
 .input-box {
-    width: 14em;
+    width: 100%;
 }
 .question-box {
     height: 21em;
-    width: 14em;
+    width: 100%;
 }
 .submit-button {
     background-color: white;
