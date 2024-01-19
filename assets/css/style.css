@@ -96,10 +96,13 @@ main {
 }
 /*styling for content on home page*/
 #homepage {
-    padding-top: 2em;
+    padding: 3em;
     display: flex;
     flex-direction: row;
-    padding-right: 2em;
+    padding-top: 4em;
+}
+#home-item {
+    padding-right: 5em;
 }
 #home-image {
     height: 17em;
