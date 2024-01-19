@@ -221,6 +221,9 @@ header {
 .island-title {
     font-size: 300%;
 }
+#homepage {
+    width: 100%;
+}
 #home-item {
     width: 48%;
 }
@@ -231,6 +234,7 @@ header {
 .social-image {
     width: 50px;
     height: 50px;
+    padding: 10px;
 }
 .gallery-image {
    height: 220px;
@@ -312,7 +316,12 @@ body {
 /*media query for min with 770px and max width 849px*/
 @media screen and (min-width:770px) and (max-width:849px){
 #home-image {
-    width: 550px;
+    width: 48%;
+    padding: 0;
+}
+#home-item {
+    width: 48%;
+    padding-right: 10px;
 }
 }
 
@@ -362,6 +371,7 @@ header {
 }
 #home-item {
     width: 100%;
+    padding: 0;
 }
 #home-image {
     padding-top: 20px;
@@ -372,8 +382,8 @@ header {
 }
 }
 
-/*media query for min width 321px max width 481px*/
-@media screen and (min-width:321px) and (max-width:481px){
+/*media query for min width 381px max width 481px*/
+@media screen and (min-width:381px) and (max-width:481px){
 header {    
     padding-left: 4px;
     padding-right: 2px;
@@ -393,7 +403,14 @@ header {
     flex-direction: column;
 }
 #home-item {
+    width: 100%;
+    padding: 0;
+}
+#home-image {
+    padding-left:0;
+    padding-right: 0;
     padding-top: 10px;
+    width: 100%;
 }
 .social-footer {
     padding-left: 10px;
@@ -418,6 +435,39 @@ header {
 }
 .checkbox-group {
     font-size: 150%;
+}
+}
+/*media query for min width 321px and max width 380px*/
+@media screen and (min-width:321px) and (max-width:380px){
+header {
+    align-items: baseline;
+    padding-left: 2px;
+
+}
+.nav-bar {
+    flex-direction: column;
+    padding-right: 8px;
+}
+#logo {
+    padding-left: 16px;
+    width: 60px;
+}
+#homepage {
+    flex-direction: column;
+    padding: 10px;
+}
+#home-item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+#home-image {
+    width: 100%;
+    padding-top: 10px;
+}
+.social-footer {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 }
 /*media query for max width 320px*/
