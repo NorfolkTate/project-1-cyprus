@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Visit Cyprus
 
 The purpose of this website is to encourage tourists to visit Cyprus. It makes use of plenty of eye catching images to show the best bits of Cyprus.
@@ -9,6 +10,9 @@ It was designed on a large laptop screen to begin and then made responsive to a 
 [View Visit Cyprus live project here](https://norfolktate.github.io/project-1-cyprus/)
 
 ## Contents
+=======
+
+>>>>>>> 350d77b (add media queries for gallery for mobile screens)
 
 
 

@@ -115,18 +115,6 @@ main {
     display: flex;
     justify-content: space-between;
 }
-.island-item {
-}
-#images-list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position:relative;
-}
-.island-image {
-    height: 240px;
-    width: 600px;
-}
 /*generic style for orange heading*/
 .island-title {
     text-align: center;
@@ -284,10 +272,11 @@ body {
     padding-left: 0;
 }
 .gallery {
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .gallery-image {
     width: 48%;
+    padding: 4px;
 }
 .contact {
     width:70%
@@ -376,6 +365,9 @@ header {
 #home-image {
     padding-top: 20px;
     width: 100%;
+}
+.gallery {
+    flex-wrap: wrap;
 }
 .contact {
     width: 90%;
@@ -499,6 +491,13 @@ header {
     padding-top: 10px;
     width: 250px;
     height: 150px;
+}
+.gallery {
+    flex-wrap: wrap;
+}
+.gallery-image {
+    width: 100%;
+    padding: 0%;
 }
 .input-box {
     font-size: 90%;
