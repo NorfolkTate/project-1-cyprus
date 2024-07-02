@@ -7,9 +7,9 @@ The website features a contact page with a from allowing visitors to ask questio
 In the footer, there are links to various social media pages to keep users engaged with the site.
 It was designed on a large laptop screen to begin and then made responsive to a range of smaller screens.
 
-![Am I Repsonsive](assets/images/responsive.png)
+![Am I Repsonsive](assets/images/am-i-responsive.png)
 
-View live site here: [https://norfolktate.github.io/project-1-cyprus/]
+View live site here: https://norfolktate.github.io/project-1-cyprus
 
 ## Table of Contents
 
@@ -93,42 +93,43 @@ The site should envoke joy and excitement.
     * The contact-us page is "If you have a question for our team please us the form below".
     * The thank-you page simply says "Thank you". 
 
-![Main Heading](assets/images/main-heading.png)
+![Main Heading](assets/images/main-image.png)
 
 * Section one
   * This section contains a paragraph detailing the best bits of Cyprus.
   * It leads the user in to the main theme of the webpage.
 
-![Welcome to Cyprus](assets/images/section-1.png)
+![Welcome to Cyprus](assets/images/welcome.png)
 
 * Section two
   * This section contains another paragraph specifically about why people should visit.
   * It is accompanied by an image of a Cypriot beach.
 
-![Why Cyprus](assets/images/section-2.png)
+![Why Cyprus](assets/images/why-cyprus.png)
 
 * Footer
   * Links to the social media pages will open in a new tab to allow easy navigation for the user.
   * Easy to stay engaged with the site wia social media.
 
-![Footer](assets/images/Footer.png)
+![Footer](assets/images/footer.png)
 
 * Gallery
   * The gallery will show striking and colourful images of Cyprus
 
-![Gallery](assets/images/galley-image.png)
+![Gallery](assets/images/gallery.png)
 
 * The Contact Us page
   * Allows the user to ask further questions and engage with the team. 
   * All fields and required and the question is typed by the user, giving them free reign.
 
-![Sign Up Form](assets/images/contact-us-image.png)
+![Sign Up Form](assets/images/contact-page.png)
 
 * Thank you page
   * Form submitted sucessfully.
   * Contains a link back to the homepage for user ease.
 
-![Form received](assets/images/thank-you-image.png)
+![Form received](assets/images/thankyou.png)
+![Return to home](assets/images/return-to-home.png)
 
 ## Features Left to Implement
 
@@ -172,10 +173,16 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate th
 ### Validation results
 
 * W3C HTML result:
-![W3C HTML](assets/images/HTML-valid.png)
-
+  * Homepage
+  ![W3C HTML](assets/images/HTML-valid.png)
+  * Gallery
+  ![W3C HTML](assets/images/HTML-valid.png)
+  * Contact page
+  ![W3C HTML](assets/images/HTML-valid.png)
+  *Thankyou page
+  ![W3C HTML](assets/images/HTML-valid.png)
 * W3C CSS result:
-![W3C CSS](/assets/images/css-valid.png)
+![W3C CSS](/assets/images/css-validator.png)
 
 ### Manual Testing
 
