@@ -72,7 +72,7 @@ main {
 #hero {
     height:37rem;
     width: 100%;
-    background:url(../images/lovers-bridge-cyprus.jpg) no-repeat center center/cover;
+    background:url(../images/cyprus-main-image.jpg) no-repeat center center/cover;
     position: relative;
 }
 /*text for hero image*/
