@@ -33,6 +33,7 @@ View live site here: https://norfolktate.github.io/project-1-cyprus
 
 * [Validation Results](#validation-results)
 * [Manual Testing](#manual-testing)
+* [Fixed Bugs](#fixed-bugs)
 * [Lighthouse Report](#lighthouse-report)
 
 ### [Deployment and local development](#deployment-and-local-development-1)
@@ -163,6 +164,7 @@ The site should envoke joy and excitement.
 * Google Fonts - to import the main font used throughout.
 * Figma - to create the original wireframe
 * Am I responsive - to create pictures.
+* Webaim - to check for contrast colours (Particulary helpful as I am colourblind)
 
 ## Testing
 
@@ -197,6 +199,29 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate th
 * The website was viewed on a laptop, a tablet and Samsung phone.
 * Testing was done to ensure links between pages are working correctly on all pages.
 * Dev Tools was used to test how the site looks on various screen sizes.
+
+### Fixed bugs
+
+These are the documented fixed issues I faced and corrected. Most were fixed with the correct use of Flexbox and a lot of trial and error
+
+* Fix nav section css styling so it aligns with the header
+* Fix div positions and fix id for homepage
+* Fix div issue so image and text align next to eachother
+* Fix form inputs on the footer
+* Add fixed form to current affairs page
+* Fix html error on hyperlink
+* Fix nav bar issues with flex box
+* Fix nav bar issues in island page
+* Fix sizing issues in footer
+* Fix some spelling issues in html code
+* Fix styling on headings
+* Fix nav bar to correct links in contact page
+* Fix footer styling and remove old css styles
+* Fix styling to images and text on island page
+* Fix header and nav bar
+* Fix issue with rgb code in style.css
+* Fix issue of images not loading in the readme
+
 
 ### Lighthouse Report
 
