@@ -174,13 +174,19 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate th
 
 * W3C HTML result:
   * Homepage
-  ![W3C HTML](assets/images/HTML-valid.png)
+  ![W3C HTML](assets/images/html-home.png)
+
   * Gallery
-  ![W3C HTML](assets/images/HTML-valid.png)
+
+    ![W3C HTML](assets/images/html-gallery.png)
+
   * Contact page
-  ![W3C HTML](assets/images/HTML-valid.png)
-  *Thankyou page
-  ![W3C HTML](assets/images/HTML-valid.png)
+
+    ![W3C HTML](assets/images/html-contact.png)
+
+  * Thankyou page
+
+    ![W3C HTML](assets/images/html-thankyou.png)
 * W3C CSS result:
 ![W3C CSS](/assets/images/css-validator.png)
 
