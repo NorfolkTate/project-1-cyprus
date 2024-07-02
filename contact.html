@@ -32,30 +32,30 @@
     </header>
     <main>
         <!--form for question submission-->
-        <section>
-                <p class="contact-title"> If you have a question for our team please use the form below</p>
+        <div>
+            <p class="contact-title">If you have a question for our team please use the form below</p>
             <div class="contact">
                 <form action="thank-you.html" method="get">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" class="input-box" name="first-name" placeholder="First Name" required>
                     <br>
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" class="input-box" name="last-name"  placeholder="Last Name" required>
+                    <input type="text" id="lname" class="input-box" name="last-name" placeholder="Last Name" required>
                     <br>
                     <label for="phone">Phone Number</label>
-                    <input type="number" id="phone" class="input-box" name="phone" placeholder="Phone Number" required>
+                    <input type="tel" id="phone" class="input-box" name="phone" placeholder="Phone Number" required>
                     <br>
                     <label for="email">Email Address</label>
                     <input type="email" id="email" class="input-box" name="email" placeholder="Email" required>
                     <br>
                     <label for="question">Ask your question here</label>
-                    <input type="text-box" id="question" class="question-box" name="question" placeholder="Type your question here..." required>
+                    <textarea id="question" class="question-box" name="question" placeholder="Type your question here..." required></textarea>
                     <br>
                     <!--<a href="thankyou.html" class="submit-button">Submit</a>-->
                     <input class="submit-button" type="submit" value="Submit">
                 </form>
             </div>
-        </section>
+        </div>
     </main>
     <!--footer and social images-->
     <footer>
