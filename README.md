@@ -36,8 +36,9 @@ View live site here: https://norfolktate.github.io/project-1-cyprus
 * [Lighthouse Report](#lighthouse-report)
 
 ### [Deployment and local development](#deployment-and-local-development-1)
-
 * [GitHub Pages](#github-pages)
+* [Forking the GitHub Repository](#forking-the-github-repository)
+* [Local Clone](#local-clone)
 
 ### [Credits](#credits-1)
 
@@ -213,6 +214,33 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate th
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
+1. Log in to GitHub and locate [GitHub repository](https://github.com/NorfolkTate/project-1-cyprus)
+2. At the top of the repository locate "Settings" button on the menu.
+3. Scroll down the Settings page until you locate "GitHub Pages".
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
+5. The page will automatically refresh.
+6. Scroll back to locate the now-published site in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+
+1. Log in to GitHub and locate [GitHub repository](https://github.com/NorfolkTate/project-1-cyprus)
+2. At the top of the repository locate "Fork" button.
+3. Now you have a copy of the original in your GitHub account.
+
+### Local Clone
+
+1. Log in to GitHub and locate [GitHub repository](https://github.com/NorfolkTate/project-1-cyprus)
+2. Under the repository name click "Clone or download"
+3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone` and then paste The URL copied in the step 3.
+7. Press Enter and your local clone will be created.
+
+---
+
 
 ## Credits
 
